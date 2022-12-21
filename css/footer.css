@@ -1,0 +1,179 @@
+footer {
+    width: 100%;
+    height: 30%;
+    /*border: 2px dashed white;*/
+    margin-top: 2%;
+    margin-bottom: 0;
+    padding-top: 1%;
+    background-color: #16001b;
+}
+
+.footer-infos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-adresse, 
+.footer-tel, 
+.footer-mail {
+    width: 30%;
+    margin: 0 1% 0 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*border: 2px dashed orange;*/
+}
+
+.footer-tel {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+
+.box-logo-footer {
+    width: 8%;
+    margin: 2% 8% 2% 2%;
+    /*border: 2px dashed blue;*/
+}
+
+
+.logo-footer {
+    width: 100%;
+    height: 100%;
+}
+
+.box-footer-txt {
+    width: 60%;
+}
+
+.footer-txt-titre {
+    font-size: 1.2vw;
+    margin-bottom: 2%;
+    font-family: 'Okine Sans Medium';
+}
+.footer-txt-textes {
+    font-size: 0.8vw;
+    font-family: 'Open Sans Light';
+}
+
+
+
+
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1%;
+    padding: 2% 0 2% 0;
+    background-color: #110014;
+    /*border: 2px dashed red;*/
+}
+
+.footer-box-logoA, 
+.footer-box-nav, 
+.footer-box-ecole {
+    width: 40%;
+    margin: 0 1%;
+    /*border: 1px dashed white;*/
+}
+
+
+.footer-box-logoA {
+    margin: auto 1% auto 7%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoA {
+    width: 50%;
+}
+
+
+.footer-box-nav {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.footer-titre-nav {
+    margin: 0 auto auto 25%;
+    font-size: 2vw;
+    font-family: 'Okine Sans Medium';   
+}
+.footer-box-nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.85vw;
+    font-family: 'Open Sans Light';
+    margin: 15%;
+}
+.footer-box-nav ul a:hover {
+    color: #59006d;
+}
+.footer-box-nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: auto auto auto 22%;
+}
+
+
+
+.footer-box-ecole {
+    display: flex;
+    flex-direction: column;
+    width: 33;
+}
+.footer-titre-ecole {
+    margin-bottom: 3%;
+    margin-left: 35%;
+    font-size: 2vw;
+    font-family: 'Okine Sans Medium';   
+}
+
+.footer-box-logo-iut {
+    /*border: 2px dashed red;*/
+    width: 100%;
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo-iut {
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Okine Sans Medium';
+    src: url(../font/OkineSans/MADEOkineSansPERSONALUSE-Medium.otf);
+}
+@font-face {
+    font-family: 'Okine Sans Light';
+    src: url(../font/OkineSans/MADEOkineSansPERSONALUSE-Light.otf);
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url(../font/OpenSans/OpenSans-Light.ttf);
+}
+
+
+@font-face {
+    font-family: 'Glacial Indifference Regular';
+    src: url(../font/GlacialIndifference/GlacialIndifference-Regular.otf);
+}
