@@ -133,27 +133,23 @@ main {
     align-items: center;
     justify-content: flex-start;
 }
-.dl-cv {
-    /*border: 2px dashed orange;*/
-    width: 20%;
-    margin: 10%;
-    text-decoration: none;
-}
-.dl-cv-btn {
-    width: 100%;
+.dl-cv { 
+    width: 30%;
+    text-align: center;
     background-color: transparent;
     border: 2px solid rgb(81,0,74);
     color: white;
     cursor: pointer;
     font-size: 1vw;
-    padding: 15% 15%;
-    margin-left: 80%;
+    margin: 10% auto 10% auto;
+    padding: 5% 0;
+    text-decoration: none;
     font-family: 'Okine Sans Medium';
     color: #fff;
-    box-shadow: 0 0 40px 40px rgba(143, 0, 131, 0.568) inset, 0 0 0 0 rgba(143, 0, 131, 0.568);
+    box-shadow: 0 0 40px 60px rgba(143, 0, 131, 0.568) inset, 0 0 0 0 rgba(143, 0, 131, 0.568);
     transition: 150ms;
 }
-.dl-cv-btn:hover {
+.dl-cv:hover {
     box-shadow: 0 0 10px 0 rgba(143, 0, 131, 0.568) inset, 0 0 10px 4px rgba(143, 0, 131, 0.568);
     
 }
