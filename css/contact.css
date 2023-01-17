@@ -1,0 +1,42 @@
+body {
+    background-color: #110014;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+
+main {
+    border: 2px dashed orange;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-titre {
+    border: 2px dashed white;
+    margin: 5% auto;
+    width: 90%;
+    font-size: 4vw;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Okine Sans Medium';
+}
+
+.email-form {
+    /*border: 2px dashed red;*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% auto 3% auto;
+}
+.email-form iframe {
+    margin: auto;
+    border: 2px solid purple;
+    box-shadow: 0px 0px 100px 20px rgba(143, 0, 131, 0.568);
+    filter: brightness(80%);
+}
