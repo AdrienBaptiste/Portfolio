@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/menu-burger.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -24,7 +25,7 @@
                 <li>Accueil</li>
             </a>
             <a href="a-propos.html">
-                <li>A propos</li>
+                <li>À propos</li>
             </a>
             <a href="competences.html">
                 <li>Compétences</li>
@@ -36,6 +37,23 @@
                 <li>Contact</li>
             </a>
         </ul>
+        <div class="header-burger">
+            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+            <label for="openSidebarMenu" class="sidebarIconToggle">
+                <div class="spinner diagonal part-1"></div>
+                <div class="spinner horizontal"></div>
+                <div class="spinner diagonal part-2"></div>
+            </label>
+            <div id="sidebarMenu">
+                <ul class="sidebarMenuInner">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Compétences</a></li>
+                    <li><a href="#">Projets</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -43,11 +61,12 @@
         <section class="box-profil">
             <section class="profil">
                 <div class="box-title-profil">
-                    <h1>BONJOUR,</h1>
-                    <h1>MOI C'EST ADRIEN !</h1>
+                    <h1 class="title-profil">BIENVENUE SUR MON<br><p>PORTEFOLIO !</p></h1>
+                    <div class="box-title2-profil">
+                        <p class="title2-profil">MOI C'EST</p><p class="title-nom-profil">&nbsp;ADRIEN</p>
+                    </div>
                     <h3 class="subtitle-profil">Étudiant en Développement Web, Graphisme, Audiovisuel et Communication
                     </h3>
-                    <h1 class="title2-profil">BIENVENUE SUR MON <br>PORTEFOLIO !</h1>
                 </div>
             </section>
             <section class="section-pp">
@@ -89,8 +108,8 @@
                         <img src="img/adresse-blanc.png" alt="" class="logo-footer">
                     </div>
                     <div class="box-footer-txt">
-                        <p class="footer-txt-titre">ADRESSE</p>
-                        <p class="footer-txt-textes">1 rue du Terme Boreal, 77127 LIEUSAINT</p>
+                        <p class="footer-txt-titre">LOCALISATION</p>
+                        <p class="footer-txt-textes">Île de France - Seine et Marne</p>
                     </div>
                 </div>
                 <div class="footer-tel">

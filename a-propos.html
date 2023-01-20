@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/menu-burger.css">
     <link rel="stylesheet" href="css/a-propos.css">
 </head>
 
@@ -20,11 +21,11 @@
             <!-- <p class="header-nom">ADRIEN <br>BAPTISTE</p> -->
         </div>
         <ul class="header-navbar">
-            <a href="index.html">
+            <a  href="index.html">
                 <li>Accueil</li>
             </a>
             <a class="page-actuelle" href="a-propos.html">
-                <li>A propos</li>
+                <li>À propos</li>
             </a>
             <a href="competences.html">
                 <li>Compétences</li>
@@ -36,6 +37,23 @@
                 <li>Contact</li>
             </a>
         </ul>
+        <div class="header-burger">
+            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+            <label for="openSidebarMenu" class="sidebarIconToggle">
+                <div class="spinner diagonal part-1"></div>
+                <div class="spinner horizontal"></div>
+                <div class="spinner diagonal part-2"></div>
+            </label>
+            <div id="sidebarMenu">
+                <ul class="sidebarMenuInner">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Compétences</a></li>
+                    <li><a href="#">Projets</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -113,8 +131,8 @@
                         <img src="img/adresse-blanc.png" alt="" class="logo-footer">
                     </div>
                     <div class="box-footer-txt">
-                        <p class="footer-txt-titre">ADRESSE</p>
-                        <p class="footer-txt-textes">1 rue du Terme Boreal, 77127 LIEUSAINT</p>
+                        <p class="footer-txt-titre">LOCALISATION</p>
+                        <p class="footer-txt-textes">Ile de France - Seine et marne</p>
                     </div>
                 </div>
                 <div class="footer-tel">

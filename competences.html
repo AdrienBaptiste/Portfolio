@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/menu-burger.css">
     <link rel="stylesheet" href="css/competences.css">
 </head>
 
@@ -24,7 +25,7 @@
                 <li>Accueil</li>
             </a>
             <a href="a-propos.html">
-                <li>A propos</li>
+                <li>À propos</li>
             </a>
             <a class="page-actuelle" href="competences.html">
                 <li>Compétences</li>
@@ -36,6 +37,23 @@
                 <li>Contact</li>
             </a>
         </ul>
+        <div class="header-burger">
+            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+            <label for="openSidebarMenu" class="sidebarIconToggle">
+                <div class="spinner diagonal part-1"></div>
+                <div class="spinner horizontal"></div>
+                <div class="spinner diagonal part-2"></div>
+            </label>
+            <div id="sidebarMenu">
+                <ul class="sidebarMenuInner">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Compétences</a></li>
+                    <li><a href="#">Projets</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -43,61 +61,87 @@
             <div class="box-titre">
                 <h2>Mes compétences</h2>
             </div>
-            <div class="parcours box-texte">
-                <h1>Mon parcours et ma formation</h1>
-                <p>
-                    BUT MMI (Métiers du Multimédia et de l'Internets) - (2021 à 2024)<br>
-                    Parcours Création Numérique<br>
-                    I.U.T. Sénart Fontainebleau 77127 Lieusaint (Université Paris-Est Créteil)<br><br>
-
-                    Baccalauréat Technologique STI2D (2021) - Mention Très Bien<br>
-                    Enseignement spécifique SIN (Systèmes d'Information Numériques)<br>
-                    Lycee La fayette 77430 Champagne-sur-Seine<br><br>
-
-                    Brevet des collèges (2017) - Mention Très Bien<br>
-                    Collège Jacques Prévert 77710 Lorrez-le-Bocage
-
-                </p>
-                <!-- <p>Après avoir obtenu mon brevet des collèges avec la mention très bien, je me suis orienté vers une 
-                    seconde générale, suivie d'une <U>première S-SI (Sciences de l'ingénieur)</U> au Lycée Étienne Bezout 
-                    (77140 - Nemours). Cette année m'a permis de réaliser beaucoup de choses dont le fait que ce parcours 
-                    ne me convenait pas.<br> 
-                    Je me suis donc réorienté en <U>première STI2D avec l'enseignement spécifique SIN à 
-                    savoir Systèmes d'Informations Numériques</U>, au Lycée La Fayette (77430 - Champagne-sur-Seine). 
-                    Ces deux années en internat m'ont permis de décrocher la mention très bien au baccalauréat.<br><br>
-                    
-                    C'est donc après ces deux années que j'ai rejoint le <U>BUT Métiers du Multimédia et de l'Internet (MMI)</U>. 
-                    Cette formation me plaît beaucoup, m'aide à en apprendre davantage sur moi-même et me permet de 
-                    développer toutes sortes de compétences.
-                </p> -->
+            <div class="box-pictos-comp">
+                <a href="#developper"><img class="picto" src="img/pictos/developper.png" alt="icone compétence développer"></a>
+                <a href="#exprimer"><img class="picto" src="img/pictos/exprimer.png" alt="icone compétence exprimer"></a>
+                <a href="#concevoir"><img class="picto" src="img/pictos/concevoir.png" alt="icone compétence concevoir"></a>
+                <a href="#comprendre"><img class="picto" src="img/pictos/comprendre.png" alt="icone compétence comprendre"></a>
+                <a href="#entreprendre"><img class="picto" src="img/pictos/entreprendre.png" alt="icone compétence entreprendre"></a>
             </div>
-            <div class="personalite box-texte">
-                <h1>Ma personnalité</h1>
-                <p>
+            <div class="developper left box-texte">
+                <h1 id="developper">Développer</h1>
+                <div class="txt">
+                    <p class="subtitle-txt"><U>Développement / Intégration Web et Hébergement</U> :</p><br>
+                    <p>- Développement et hébergement d'un site web.<br>
+                        Langages utilisés : HTML / CSS / JavaScript
+                    </p><br>
+                    <p>- Développement et hébergement d'un site web avec utiilisation d'une base de données.<br>
+                        Langages et logiciels utilisés : HTML / CSS / JavaScript / PHP / phpMyAdmin / WampServer
+                    </p>
+                </div>
+                <div class="box-logo-comp">
+                    <img src="img/html.png" alt="logo HTML">
+                    <img src="img/css.png" alt="logo CSS">
+                    <img src="img/js.png" alt="logo JavaScript">
+                    <img src="img/php.png" alt="logo PHP">
+                    <img style="width: 15%" src="img/php-my-admin.png" alt="logo phpMyAdmin">
+                    <img src="img/WampServer-logo.png" alt="logo WampServer">
+                </div>
+            </div>
+            <div class="exprimer right box-texte">
+                <h1 id="exprimer">Exprimer</h1>
+                <div class="txt">
+                    <p class="subtitle-txt"><U>Développement / Intégration Web et Hébergement</U> :</p><br>
+                    <p>- Développement et hébergement d'un site web.<br>
+                        Langages utilisés : HTML / CSS / JavaScript
+                    </p><br>
+                    <p>- Développement et hébergement d'un site web avec utiilisation d'une base de données.<br>
+                        Langages et logiciels utilisés : HTML / CSS / JavaScript / PHP / phpMyAdmin / WampServer
+                    </p>
+                </div>
+                <div class="box-logo-comp">
+                    <img src="img/photoshop-blanc.png" alt="logo Adobe Photoshop">
+                    <img src="img/premiere-blanc.png" alt="logo Adobe Première Pro">
+                    <img src="img/illustrator-blanc.png" alt="logo Adobe Illustrator">
+                    <img src="img/after-blanc.png" alt="logo After Adobe Effect">
+                    <img src="img/animate-blanc.png" alt="logo Adobe After Effect">
+                    <img src="img/inDesign-blanc.png" alt="logo Adobe InDesign">
+                    <img  src="img/doc.png" alt="logo Adobe Google Doc">
+                </div>
+            </div>
+            <div class="concevoir left box-texte">
+                <h1 id="concevoir">Concevoir</h1>
+                <div class="txt">
+                    Piano<br>
+                    Jeux-vidéos<br>
+                    Musique<br>
+                    Lecture<br>
+                </div>
+            </div>
+            <div class="personalite right box-texte">
+                <h1 id="comprendre">Comprendre</h1>
+                <div class="txt">
                     Calme<br>
                     Appliqué<br>
                     Créatif<br>
                     Curieux<br>
                     Rigoureux<br>
-                </p>
+                </div>
                 <!-- <p>Je suis une personne calme et empathique mais surtout serieuse et appliquée dans ce qu'elle fait. J'aime 
                     produire et rendre des travaux complets  
                 </p> -->
             </div>
-            <div class="centres-interets box-texte">
-                <h1>Mes centres d'intérêts</h1>
-                <p>
+            <div class="entreprendre left box-texte">
+                <h1 id="entreprendre">Entreprendre</h1>
+                <div class="txt">
                     Piano<br>
                     Jeux-vidéos<br>
                     Musique<br>
                     Lecture<br>
-                </p>
-                <!-- <p>Je suis une personne calme et empathique mais surtout serieuse et appliquée dans ce qu'elle fait. J'aime 
-                    rendre des travaux complets et bien réalisé 
-                </p> -->
+                </div>
             </div>
 
-            
+
         </section>
 
 
@@ -113,8 +157,8 @@
                         <img src="img/adresse-blanc.png" alt="" class="logo-footer">
                     </div>
                     <div class="box-footer-txt">
-                        <p class="footer-txt-titre">ADRESSE</p>
-                        <p class="footer-txt-textes">1 rue du Terme Boreal, 77127 LIEUSAINT</p>
+                        <p class="footer-txt-titre">LOCALISATION</p>
+                        <p class="footer-txt-textes">Ile de France - Seine et marne</p>
                     </div>
                 </div>
                 <div class="footer-tel">

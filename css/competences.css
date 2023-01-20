@@ -4,6 +4,9 @@ body {
     height: 100%;
     color: white;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 main {
     width: 85%;
@@ -15,52 +18,87 @@ main {
 }
 
 .contenu {
-    width: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .box-titre {
-    margin: 0 auto 10% auto;
+    margin: 0 auto;
+    margin-top: 5%;
     width: 100%;
     font-size: 4vw;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Okine Sans Medium';
 }
+.box-pictos-comp {
+    width: 100%; 
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5% 0;
+}
+.box-pictos-comp a {
+    width: 20%;
+    transition: 200ms ease-in-out;
+}
+.box-pictos-comp a:hover {
+    transform: scale(1.08);
+}
+.picto {
+    width: 100%;
+}
+
 
 .box-texte {
-    width: 75%;
-    margin-bottom: 10%;
+    width: 100%;
+    margin: 10% 0;
 }
 
 h1 {
-    font-size: 2.3vw;
+    font-size: 3vw;
     font-family: 'Okine Sans Medium';
     text-transform: uppercase;
     margin-bottom: 3vw;
 }
 
-p {
-    font-family: 'Open Sans Light';
-    font-size: 1vw;
-    line-height: 1.5vw;
-}
 
-.personalite {
-    margin-left: 20%;
+.right {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     text-align: end;
+    align-self: flex-end;
 }
 
-.personalite p {
-    font-size: 1.5vw;
-    line-height: 3vw;
+.box-texte .txt {
+    font-size: 1.2vw;
+    line-height: 2vw;
+    font-family: 'Open Sans Light';
 }
-.centres-interets p {
-    font-size: 1.5vw;
-    line-height: 3vw;
+
+.box-logo-comp {
+    width: 100%; 
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
+.box-logo-comp img {
+    width: 8%;
+}
+
+
+
+
+
+
+
+
+
 
 
 

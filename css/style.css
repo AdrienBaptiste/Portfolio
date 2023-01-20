@@ -1,4 +1,3 @@
-
 .box-profil {
     /*border: 2px dashed yellow;*/
     width: 100%;
@@ -26,12 +25,29 @@
 .subtitle-profil {
     /*border: 2px dashed red;*/
 
-    font-size: 1vw;
+    font-size: 2vw;
     font-family: 'Open Sans Light';
 }
-.title2-profil {
+.title-profil {
+    font-size: 2.8vw;
+}
+.title-profil p {
+    font-size: 5vw;
+}
 
-    margin-top: 15%;
+.box-title2-profil {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.title2-profil {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    font-size: 2.8vw;
+}
+.title-nom-profil {
+    font-size: 5vw;
 }
 
 .section-pp {
@@ -102,7 +118,7 @@
     
 }
 .subtitle-cv {
-    font-size: 1vw;
+    font-size: 2vw;
     font-family: 'Open Sans Light';
     text-align: right;
 }
