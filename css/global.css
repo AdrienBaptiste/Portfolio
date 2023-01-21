@@ -5,6 +5,9 @@ body {
     height: 100%;
     color: white;
 }
+html {
+    scroll-behavior: smooth;
+}
 main {
     /*border: 2px dashed orange;*/
     width: 85%;

@@ -27,6 +27,7 @@ main {
 
 .box-1 {
     width: 20vw;
+    height: 25vw;
     background-color: #300030;
     border-radius: 20px;
     display: flex;
@@ -52,17 +53,21 @@ main {
 }
 .box-boite-img {
     width: 90%;
+    height: 48%;
     margin: 5% auto 2% auto;
+    
 }
 .img {
+    height: 100%;
     width: 100%;
     border-radius: 20px;
+    object-fit: cover;
 }
-.box-boute-icone {
+.box-bote-icone {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .box-icone {
     width: 8%;

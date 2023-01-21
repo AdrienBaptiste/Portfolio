@@ -21,7 +21,7 @@
             <!-- <p class="header-nom">ADRIEN <br>BAPTISTE</p> -->
         </div>
         <ul class="header-navbar">
-            <a class="page-actuelle" href="index.html">
+            <a href="index.html">
                 <li>Accueil</li>
             </a>
             <a href="a-propos.html">
@@ -30,7 +30,7 @@
             <a href="competences.html">
                 <li>Compétences</li>
             </a>
-            <a href="projets.html">
+            <a class="page-actuelle" href="projets.html">
                 <li>Projets</li>
             </a>
             <a href="contact.html">
@@ -46,11 +46,11 @@
             </label>
             <div id="sidebarMenu">
                 <ul class="sidebarMenuInner">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">À propos</a></li>
-                    <li><a href="#">Compétences</a></li>
-                    <li><a href="#">Projets</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                    <li><a href="competences.html">Compétences</a></li>
+                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -68,7 +68,59 @@
             <div class="box-1">
                 <a href="#popup1" class="button">
                     <div class="box-boite-img">
-                        <img src="img/musee-infini.png" alt="" class="img">
+                        <img src="img/images-mockups/portfolio.png" alt="" class="img">
+                    </div>
+                    <div class="box-boite-txt">
+                        <div class="box-boite-icone">
+                            <img src="img/html.png" alt="logo HTML" class="box-icone">
+                            <img src="img/css.png" alt="logo CSS" class="box-icone">
+                            <img src="img/js.png" alt="logo JavaScript" class="box-icone">
+                            <img src="img/illustrator-blanc.png" alt="logo Adobe Illustrator" class="box-icone">
+                            <img src="img/photoshop-blanc.png" alt="logo Adobe Photoshop" class="box-icone">
+                        </div>
+                        <h1 class="box-titre">portfolio</h1>
+                        <p class="box-txt">
+                            Design et développement de ce même portfolio !
+                        </p>
+                    </div>
+                </a>
+            </div>
+        
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <div class="popup-boite-img">
+                        <img src="img/images-mockups/portfolio.png" alt="" class="popup-img">
+                    </div>
+                    <a href="#" class="cross">&times;</a>
+                    <div>
+                        <h1 class="popup-titre">portfolio</h1>
+                        <div class="box-icones">
+                            <div class="popup-boite-icones">
+                                <div><img src="img/html.png" alt="logo HTML" class="popup-icone"><p>HTML</p></div>
+                                <div><img src="img/css.png" alt="logo CSS" class="popup-icone"><p>CSS</p></div>
+                                <div><img src="img/js.png" alt="logo JavaScript" class="popup-icone"><p>JavaScript</p></div>
+                                <div><img src="img/illustrator-blanc.png" alt="logo Adobe Illustrator" class="popup-icone"><p>Illustrator</p></div>
+                                <div><img src="img/photoshop-blanc.png" alt="logo Adobe Photoshop" class="popup-icone"><p>Photoshop</p></div>
+                            </div>
+                        <p class="popup-txt">
+                            Souhaitant me spécialiser dans le développement web plus tard, j'ai décidé de développer mon portfolio 
+                            pour que ce dernier puisse illustrer davantage mes compétences dans ce domaine.
+                            <br><br>
+                            Ce site web est côté en HTML et CSS, il possède une fonctionnalité de traduction via une checkbox 
+                            sous forme de slider, codé en JavaScript. Toutes les informations des expositions du musée (noms, 
+                            oeuvres, vidéos, descriptions, etc) se trouvent dans une base de donnée locale (PhpMyAdmin). 
+                            J'ai donc aussi codé toute la partie PHP avec une architecture MVC.<br><br>
+                        </p>
+                    </div>
+        
+                </div>
+        </section>
+
+        <section class="projet projet2">
+            <div class="box-1">
+                <a href="#popup2" class="button">
+                    <div class="box-boite-img">
+                        <img src="img/images-mockups/musee-infini.png" alt="" class="img">
                     </div>
                     <div class="box-boite-txt">
                         <div class="box-boite-icone">
@@ -85,10 +137,10 @@
                 </a>
             </div>
         
-            <div id="popup1" class="overlay">
+            <div id="popup2" class="overlay">
                 <div class="popup">
                     <div class="popup-boite-img">
-                        <img src="img/musee-infini.png" alt="" class="popup-img">
+                        <img src="img/images-mockups/musee-infini.png" alt="" class="popup-img">
                     </div>
                     <a href="#" class="cross">&times;</a>
                     <div>
@@ -97,7 +149,7 @@
                             <div class="popup-boite-icones">
                                 <div><img src="img/html.png" alt="logo HTML" class="popup-icone"><p>HTML</p></div>
                                 <div><img src="img/css.png" alt="logo CSS" class="popup-icone"><p>CSS</p></div>
-                                <div><img src="img/js.png" alt="logo JS" class="popup-icone"><p>JS</p></div>
+                                <div><img src="img/js.png" alt="logo JS" class="popup-icone"><p>JavaScript</p></div>
                                 <div><img src="img/php.png" alt="logo PHP" class="popup-icone"><p>PHP</p></div>
                             </div>
                         <p class="popup-txt">
@@ -117,96 +169,93 @@
                 </div>
         </section>
 
-        <section class="projet projet1">
+        <section class="projet projet3">
             <div class="box-1">
-                <a href="#popup1" class="button">
+                <a href="#popup3" class="button">
                     <div class="box-boite-img">
-                        <img src="img/musee-infini.png" alt="" class="img">
+                        <img src="img/images-mockups/droit-num.png" alt="" class="img">
                     </div>
                     <div class="box-boite-txt">
                         <div class="box-boite-icone">
-                            <img src="img/html.png" alt="logo HTML" class="box-icone">
-                            <img src="img/css.png" alt="logo CSS" class="box-icone">
-                            <img src="img/js.png" alt="logo JS" class="box-icone">
-                            <img src="img/php.png" alt="logo PHP" class="box-icone">
+                            <img src="img/premiere-blanc.png" alt="logo Adobe Première Pro" class="box-icone">
+                            <img src="img/after-blanc.png" alt="logo After Effect" class="box-icone">
+                            <img src="img/camera.png" alt="logo camera" class="box-icone">
                         </div>
-                        <h1 class="box-titre">site web musée de l'infini</h1>
+                        <h1 class="box-titre">vidéos droit du numérique</h1>
                         <p class="box-txt">
-                            Création en groupe d'un musée en ligne sur le thème de l'infini.
+                            Création d'une vidéo en collaboration avec des étudiants en master droit du numérique.
                         </p>
                     </div>
                 </a>
             </div>
         
-            <div id="popup1" class="overlay">
+            <div id="popup3" class="overlay">
                 <div class="popup">
                     <div class="popup-boite-img">
-                        <img src="img/musee-infini.png" alt="" class="popup-img">
+                        <img src="img/images-mockups/droit-num.png" alt="" class="popup-img">
                     </div>
                     <a href="#" class="cross">&times;</a>
                     <div>
                         <h1 class="popup-titre">site web musée de l'infini</h1>
                         <div class="box-icones">
                             <div class="popup-boite-icones">
-                                <div><img src="img/html.png" alt="logo HTML" class="popup-icone"><p>HTML</p></div>
-                                <div><img src="img/css.png" alt="logo CSS" class="popup-icone"><p>CSS</p></div>
-                                <div><img src="img/js.png" alt="logo JS" class="popup-icone"><p>JS</p></div>
-                                <div><img src="img/php.png" alt="logo PHP" class="popup-icone"><p>PHP</p></div>
+                                <div><img src="img/premiere-blanc.png" alt="logo Adobe Première Pro" class="popup-icone"><p>Première Pro</p></div>
+                                <div><img src="img/after-blanc.png" alt="logo After Effect" class="popup-icone"><p>After Effect</p></div>
+                                <div><img src="img/camera.png" alt="logo camera" class="popup-icone"><p>Tournage</p></div>
                             </div>
                         <p class="popup-txt">
-                            Dans le cadre du projet SAE (Projet de semestre) du 3e semestre de ma formation sur la création 
-                            d'un musée basé sur l'infini, j'ai du créer le dite web pour notre groupe, en suivant une identité 
-                            visuelle, aussi crée par notre groupe.
-                            <br>(Voir projet "Musée de l'infini")
+                            Dans le cadre d'un projet de groupe en collaboration avec des étudiants en master droit du 
+                            numérique, chaque groupe d'étudiant s'est vu assigner plusieurs étudiants de master pour créer 
+                            une série de vidéos ayant pour but d'expliquer les différents contrats liés aux droits du numérique.
                             <br><br>
-                            Ce site web est côté en HTML et CSS, il possède une fonctionnalité de traduction via une checkbox 
-                            sous forme de slider, codé en JavaScript. Toutes les informations des expositions du musée (noms, 
-                            oeuvres, vidéos, descriptions, etc) se trouvent dans une base de donnée locale (PhpMyAdmin). 
-                            J'ai donc aussi codé toute la partie PHP avec une architecture MVC.<br><br>
-                            <U><a href="https://adrienbaptiste.github.io/musee-de-linfini/">Voir le site sans PHP</a> </U>
+                            Dans ce projet, mon groupe a reçu le thème du contrat d'hébergement. Dans cette vidéo (ci-dessous), je 
+                            me suis occupé d'une partie du tournage, du derushage, du montage de la vidéo et de la création de 
+                            certaines animation sur After Effect pour remplacer quelques plans image raté.<br><br>
+                            <U><a target="_blank" href="https://drive.google.com/file/d/1Bd63n075ZXnpHk00Ug-lHlfZ1Gt_SZcB/view?usp=share_link">Voir la vidéo</a> </U>
                         </p>
                     </div>
         
                 </div>
         </section>
 
-        <section class="projet projet1">
+        <section class="projet projet4">
             <div class="box-1">
-                <a href="#popup1" class="button">
+                <a href="#popup4" class="button">
                     <div class="box-boite-img">
-                        <img src="img/musee-infini.png" alt="" class="img">
+                        <img src="img/images-mockups/a-venir.png" alt="" class="img">
                     </div>
                     <div class="box-boite-txt">
                         <div class="box-boite-icone">
-                            <img src="img/html.png" alt="logo HTML" class="box-icone">
+                            <!--<img src="img/html.png" alt="logo HTML" class="box-icone">
                             <img src="img/css.png" alt="logo CSS" class="box-icone">
                             <img src="img/js.png" alt="logo JS" class="box-icone">
-                            <img src="img/php.png" alt="logo PHP" class="box-icone">
+                            <img src="img/php.png" alt="logo PHP" class="box-icone">-->
                         </div>
-                        <h1 class="box-titre">site web musée de l'infini</h1>
+                        <h1 class="box-titre">-</h1>
                         <p class="box-txt">
-                            Création en groupe d'un musée en ligne sur le thème de l'infini.
+                            _____________________________________________
+                            _____________________________
                         </p>
                     </div>
                 </a>
             </div>
         
-            <div id="popup1" class="overlay">
+            <div id="popup4" class="overlay">
                 <div class="popup">
                     <div class="popup-boite-img">
-                        <img src="img/musee-infini.png" alt="" class="popup-img">
+                        <img src="img/images-mockups/a-venir.png" alt="" class="popup-img">
                     </div>
                     <a href="#" class="cross">&times;</a>
                     <div>
-                        <h1 class="popup-titre">site web musée de l'infini</h1>
+                        <h1 class="popup-titre">__________</h1>
                         <div class="box-icones">
                             <div class="popup-boite-icones">
-                                <div><img src="img/html.png" alt="logo HTML" class="popup-icone"><p>HTML</p></div>
+                                <!--<div><img src="img/html.png" alt="logo HTML" class="popup-icone"><p>HTML</p></div>
                                 <div><img src="img/css.png" alt="logo CSS" class="popup-icone"><p>CSS</p></div>
                                 <div><img src="img/js.png" alt="logo JS" class="popup-icone"><p>JS</p></div>
-                                <div><img src="img/php.png" alt="logo PHP" class="popup-icone"><p>PHP</p></div>
+                                <div><img src="img/php.png" alt="logo PHP" class="popup-icone"><p>PHP</p></div>-->
                             </div>
-                        <p class="popup-txt">
+                        <p class="popup-txt"><!--
                             Dans le cadre du projet SAE (Projet de semestre) du 3e semestre de ma formation sur la création 
                             d'un musée basé sur l'infini, j'ai du créer le dite web pour notre groupe, en suivant une identité 
                             visuelle, aussi crée par notre groupe.
@@ -216,50 +265,51 @@
                             sous forme de slider, codé en JavaScript. Toutes les informations des expositions du musée (noms, 
                             oeuvres, vidéos, descriptions, etc) se trouvent dans une base de donnée locale (PhpMyAdmin). 
                             J'ai donc aussi codé toute la partie PHP avec une architecture MVC.<br><br>
-                            <U><a href="https://adrienbaptiste.github.io/musee-de-linfini/">Voir le site sans PHP</a> </U>
+                            <U><a href="https://adrienbaptiste.github.io/musee-de-linfini/">Voir le site sans PHP</a> </U>-->
                         </p>
                     </div>
         
                 </div>
         </section>
 
-        <section class="projet projet1">
+        <section class="projet projet4">
             <div class="box-1">
-                <a href="#popup1" class="button">
+                <a href="#popup4" class="button">
                     <div class="box-boite-img">
-                        <img src="img/musee-infini.png" alt="" class="img">
+                        <img src="img/images-mockups/a-venir.png" alt="" class="img">
                     </div>
                     <div class="box-boite-txt">
                         <div class="box-boite-icone">
-                            <img src="img/html.png" alt="logo HTML" class="box-icone">
+                            <!--<img src="img/html.png" alt="logo HTML" class="box-icone">
                             <img src="img/css.png" alt="logo CSS" class="box-icone">
                             <img src="img/js.png" alt="logo JS" class="box-icone">
-                            <img src="img/php.png" alt="logo PHP" class="box-icone">
+                            <img src="img/php.png" alt="logo PHP" class="box-icone">-->
                         </div>
-                        <h1 class="box-titre">site web musée de l'infini</h1>
+                        <h1 class="box-titre">-</h1>
                         <p class="box-txt">
-                            Création en groupe d'un musée en ligne sur le thème de l'infini.
+                            _____________________________________________
+                            _____________________________
                         </p>
                     </div>
                 </a>
             </div>
         
-            <div id="popup1" class="overlay">
+            <div id="popup4" class="overlay">
                 <div class="popup">
                     <div class="popup-boite-img">
-                        <img src="img/musee-infini.png" alt="" class="popup-img">
+                        <img src="img/images-mockups/a-venir.png" alt="" class="popup-img">
                     </div>
                     <a href="#" class="cross">&times;</a>
                     <div>
-                        <h1 class="popup-titre">site web musée de l'infini</h1>
+                        <h1 class="popup-titre">__________</h1>
                         <div class="box-icones">
                             <div class="popup-boite-icones">
-                                <div><img src="img/html.png" alt="logo HTML" class="popup-icone"><p>HTML</p></div>
+                                <!--<div><img src="img/html.png" alt="logo HTML" class="popup-icone"><p>HTML</p></div>
                                 <div><img src="img/css.png" alt="logo CSS" class="popup-icone"><p>CSS</p></div>
                                 <div><img src="img/js.png" alt="logo JS" class="popup-icone"><p>JS</p></div>
-                                <div><img src="img/php.png" alt="logo PHP" class="popup-icone"><p>PHP</p></div>
+                                <div><img src="img/php.png" alt="logo PHP" class="popup-icone"><p>PHP</p></div>-->
                             </div>
-                        <p class="popup-txt">
+                        <p class="popup-txt"><!--
                             Dans le cadre du projet SAE (Projet de semestre) du 3e semestre de ma formation sur la création 
                             d'un musée basé sur l'infini, j'ai du créer le dite web pour notre groupe, en suivant une identité 
                             visuelle, aussi crée par notre groupe.
@@ -269,50 +319,51 @@
                             sous forme de slider, codé en JavaScript. Toutes les informations des expositions du musée (noms, 
                             oeuvres, vidéos, descriptions, etc) se trouvent dans une base de donnée locale (PhpMyAdmin). 
                             J'ai donc aussi codé toute la partie PHP avec une architecture MVC.<br><br>
-                            <U><a href="https://adrienbaptiste.github.io/musee-de-linfini/">Voir le site sans PHP</a> </U>
+                            <U><a href="https://adrienbaptiste.github.io/musee-de-linfini/">Voir le site sans PHP</a> </U>-->
                         </p>
                     </div>
         
                 </div>
         </section>
 
-        <section class="projet projet1">
+        <section class="projet projet4">
             <div class="box-1">
-                <a href="#popup1" class="button">
+                <a href="#popup4" class="button">
                     <div class="box-boite-img">
-                        <img src="img/musee-infini.png" alt="" class="img">
+                        <img src="img/images-mockups/a-venir.png" alt="" class="img">
                     </div>
                     <div class="box-boite-txt">
                         <div class="box-boite-icone">
-                            <img src="img/html.png" alt="logo HTML" class="box-icone">
+                            <!--<img src="img/html.png" alt="logo HTML" class="box-icone">
                             <img src="img/css.png" alt="logo CSS" class="box-icone">
                             <img src="img/js.png" alt="logo JS" class="box-icone">
-                            <img src="img/php.png" alt="logo PHP" class="box-icone">
+                            <img src="img/php.png" alt="logo PHP" class="box-icone">-->
                         </div>
-                        <h1 class="box-titre">site web musée de l'infini</h1>
+                        <h1 class="box-titre">-</h1>
                         <p class="box-txt">
-                            Création en groupe d'un musée en ligne sur le thème de l'infini.
+                            _____________________________________________
+                            _____________________________
                         </p>
                     </div>
                 </a>
             </div>
         
-            <div id="popup1" class="overlay">
+            <div id="popup4" class="overlay">
                 <div class="popup">
                     <div class="popup-boite-img">
-                        <img src="img/musee-infini.png" alt="" class="popup-img">
+                        <img src="img/images-mockups/a-venir.png" alt="" class="popup-img">
                     </div>
                     <a href="#" class="cross">&times;</a>
                     <div>
-                        <h1 class="popup-titre">site web musée de l'infini</h1>
+                        <h1 class="popup-titre">__________</h1>
                         <div class="box-icones">
                             <div class="popup-boite-icones">
-                                <div><img src="img/html.png" alt="logo HTML" class="popup-icone"><p>HTML</p></div>
+                                <!--<div><img src="img/html.png" alt="logo HTML" class="popup-icone"><p>HTML</p></div>
                                 <div><img src="img/css.png" alt="logo CSS" class="popup-icone"><p>CSS</p></div>
                                 <div><img src="img/js.png" alt="logo JS" class="popup-icone"><p>JS</p></div>
-                                <div><img src="img/php.png" alt="logo PHP" class="popup-icone"><p>PHP</p></div>
+                                <div><img src="img/php.png" alt="logo PHP" class="popup-icone"><p>PHP</p></div>-->
                             </div>
-                        <p class="popup-txt">
+                        <p class="popup-txt"><!--
                             Dans le cadre du projet SAE (Projet de semestre) du 3e semestre de ma formation sur la création 
                             d'un musée basé sur l'infini, j'ai du créer le dite web pour notre groupe, en suivant une identité 
                             visuelle, aussi crée par notre groupe.
@@ -322,60 +373,7 @@
                             sous forme de slider, codé en JavaScript. Toutes les informations des expositions du musée (noms, 
                             oeuvres, vidéos, descriptions, etc) se trouvent dans une base de donnée locale (PhpMyAdmin). 
                             J'ai donc aussi codé toute la partie PHP avec une architecture MVC.<br><br>
-                            <U><a href="https://adrienbaptiste.github.io/musee-de-linfini/">Voir le site sans PHP</a> </U>
-                        </p>
-                    </div>
-        
-                </div>
-        </section>
-
-        <section class="projet projet1">
-            <div class="box-1">
-                <a href="#popup1" class="button">
-                    <div class="box-boite-img">
-                        <img src="img/musee-infini.png" alt="" class="img">
-                    </div>
-                    <div class="box-boite-txt">
-                        <div class="box-boite-icone">
-                            <img src="img/html.png" alt="logo HTML" class="box-icone">
-                            <img src="img/css.png" alt="logo CSS" class="box-icone">
-                            <img src="img/js.png" alt="logo JS" class="box-icone">
-                            <img src="img/php.png" alt="logo PHP" class="box-icone">
-                        </div>
-                        <h1 class="box-titre">site web musée de l'infini</h1>
-                        <p class="box-txt">
-                            Création en groupe d'un musée en ligne sur le thème de l'infini.
-                        </p>
-                    </div>
-                </a>
-            </div>
-        
-            <div id="popup1" class="overlay">
-                <div class="popup">
-                    <div class="popup-boite-img">
-                        <img src="img/musee-infini.png" alt="" class="popup-img">
-                    </div>
-                    <a href="#" class="cross">&times;</a>
-                    <div>
-                        <h1 class="popup-titre">site web musée de l'infini</h1>
-                        <div class="box-icones">
-                            <div class="popup-boite-icones">
-                                <div><img src="img/html.png" alt="logo HTML" class="popup-icone"><p>HTML</p></div>
-                                <div><img src="img/css.png" alt="logo CSS" class="popup-icone"><p>CSS</p></div>
-                                <div><img src="img/js.png" alt="logo JS" class="popup-icone"><p>JS</p></div>
-                                <div><img src="img/php.png" alt="logo PHP" class="popup-icone"><p>PHP</p></div>
-                            </div>
-                        <p class="popup-txt">
-                            Dans le cadre du projet SAE (Projet de semestre) du 3e semestre de ma formation sur la création 
-                            d'un musée basé sur l'infini, j'ai du créer le dite web pour notre groupe, en suivant une identité 
-                            visuelle, aussi crée par notre groupe.
-                            <br>(Voir projet "Musée de l'infini")
-                            <br><br>
-                            Ce site web est côté en HTML et CSS, il possède une fonctionnalité de traduction via une checkbox 
-                            sous forme de slider, codé en JavaScript. Toutes les informations des expositions du musée (noms, 
-                            oeuvres, vidéos, descriptions, etc) se trouvent dans une base de donnée locale (PhpMyAdmin). 
-                            J'ai donc aussi codé toute la partie PHP avec une architecture MVC.<br><br>
-                            <U><a href="https://adrienbaptiste.github.io/musee-de-linfini/">Voir le site sans PHP</a> </U>
+                            <U><a href="https://adrienbaptiste.github.io/musee-de-linfini/">Voir le site sans PHP</a> </U>-->
                         </p>
                     </div>
         

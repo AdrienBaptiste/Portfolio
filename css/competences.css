@@ -4,9 +4,6 @@ body {
     height: 100%;
     color: white;
 }
-html {
-    scroll-behavior: smooth;
-}
 
 main {
     width: 85%;
@@ -46,6 +43,7 @@ main {
 }
 .box-pictos-comp a:hover {
     transform: scale(1.08);
+    box-shadow: 0px 0px 50px rgba(201, 0, 191, 0.5);
 }
 .picto {
     width: 100%;
@@ -65,20 +63,29 @@ h1 {
 }
 
 
+.left {
+    background: url(../img/images-mockups/a-venir.png) no-repeat;
+    background-position: 100% 10%;
+    background-size: 40%;
+}
+
+
 .right {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     text-align: end;
     align-self: flex-end;
-}
 
+    background: url(../img/images-mockups/a-venir.png) no-repeat;
+    background-position: 10% 0;
+    background-size: 40%;
+}
 .box-texte .txt {
     font-size: 1.2vw;
     line-height: 2vw;
     font-family: 'Open Sans Light';
 }
-
 .box-logo-comp {
     width: 100%; 
     margin-top: 5%;
@@ -92,6 +99,9 @@ h1 {
 }
 
 
+.title-txt {
+    font-family: 'Open Sans Bold';
+}
 
 
 
@@ -113,6 +123,10 @@ h1 {
 @font-face {
     font-family: 'Open Sans Light';
     src: url(../font/OpenSans/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url(../font/OpenSans/OpenSans-Bold.ttf);
 }
 
 

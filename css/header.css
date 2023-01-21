@@ -51,6 +51,12 @@ header {
     align-items: center;
     justify-content: flex-start;
 }
+.box-logo a {
+    transition: 200ms ease-in-out;
+}
+.box-logo a:hover {
+    transform: scale(1.08);
+}
 
 .header-logo {
     width: 60%;

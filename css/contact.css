@@ -7,7 +7,6 @@ body {
 
 
 main {
-    border: 2px dashed orange;
     width: 85%;
     margin: auto;
     display: flex;
@@ -17,7 +16,6 @@ main {
 }
 
 .box-titre {
-    border: 2px dashed white;
     margin: 5% auto;
     width: 90%;
     font-size: 4vw;
