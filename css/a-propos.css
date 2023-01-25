@@ -30,10 +30,33 @@ main {
 .box-texte {
     width: 100%;
     margin-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.box-infos {
+    width: 50%;
+}
+.box-img {
+    width: 50%;
+}
+.img {
+    width: 100%;
+}
+.img-parcours {
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.img-personalite {
+    margin-top: -15%;
+    margin-right: -10%;
+}
+.img-centres-interets {
+    margin-top: -10%;
 }
 
 h1 {
-    font-size: 2.3vw;
+    font-size: 3vw;
     font-family: 'Okine Sans Medium';
     text-transform: uppercase;
     margin-bottom: 3vw;
@@ -46,33 +69,63 @@ p {
 }
 
 
-.parcours {
-    background: url(../img/images-mockups/a-venir.png) no-repeat;
-    background-position: 100%;
-}
 
+.parcours .box-infos p {
+    font-size: 1.5vw;
+}
 
 
 .personalite {
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
     text-align: end;
-    background: url(../img/images-mockups/a-venir.png) no-repeat;
 }
-
 .personalite p {
     font-size: 1.5vw;
     line-height: 3vw;
 }
 
+
 .centres-interets {
-    background: url(../img/images-mockups/a-venir.png) no-repeat;
-    background-position: 100%;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 .centres-interets p {
     font-size: 1.5vw;
     line-height: 3vw;
+}
+
+
+
+
+@media (max-width: 420px) {
+    .box-titre {
+        margin: 10% 0;
+        font-size: 6vw;
+    }
+    .box-img {
+        display: none;
+    }
+    .box-infos {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin: 5% 0;
+    }
+    .box-infos h1 {
+        font-size: 5vw;
+    }
+    .box-infos p {
+        font-size: 4vw;
+        line-height: normal;
+        
+    }
+
+
+    .parcours .box-infos p {
+        font-size: 4vw;
+        text-align: center;
+    }
 }
 
 

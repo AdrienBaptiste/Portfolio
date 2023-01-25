@@ -3,7 +3,7 @@
 }
 
 
-@media (max-width: 850px) {
+@media (max-width: 800px) {
     .header-burger {
         display: block;
     }

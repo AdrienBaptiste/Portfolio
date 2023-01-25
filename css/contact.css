@@ -16,7 +16,7 @@ main {
 }
 
 .box-titre {
-    margin: 5% auto;
+    margin: 5% auto 10% auto;
     width: 90%;
     font-size: 4vw;
     text-transform: uppercase;
@@ -24,8 +24,40 @@ main {
     font-family: 'Okine Sans Medium';
 }
 
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 5%;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    margin: 3% 0;
+}
+.box p, .box a {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 4vw;
+    font-family: 'Okine Sans Medium';
+}
+.box-img {
+    width: 20%;
+    display: flex;
+   justify-content: flex-end;
+}
+.box img {
+    width: 60%;
+}
+
+
+
+/*
 .email-form {
-    /*border: 2px dashed red;*/
     width: 100%;
     display: flex;
     align-items: center;
@@ -37,4 +69,4 @@ main {
     border: 2px solid purple;
     box-shadow: 0px 0px 100px 20px rgba(143, 0, 131, 0.568);
     filter: brightness(80%);
-}
+}*/

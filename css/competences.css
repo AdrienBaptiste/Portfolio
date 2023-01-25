@@ -48,6 +48,13 @@ main {
 .picto {
     width: 100%;
 }
+.text-info {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: 'Okine Sans Medium';
+    font-style: italic;
+}
 
 
 .box-texte {
@@ -105,6 +112,23 @@ h1 {
 
 
 
+@media (max-width: 420px) {
+    .box-texte {
+        background: none;
+        flex-direction: column;
+        text-align: center;
+    }
+    .box-texte h1 {
+        font-size: 6vw;
+    }
+    .txt p {
+        font-size: 3vw;
+        line-height: normal;
+    }
+    .text-info {
+        font-size: 3vw;
+    }
+}
 
 
 
