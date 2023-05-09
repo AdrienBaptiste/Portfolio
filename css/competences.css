@@ -71,11 +71,20 @@ h1 {
 
 
 .left {
-    background: url(../img/images-mockups/a-venir.png) no-repeat;
+    background: url(../img/competences-img/developper.png) no-repeat;
     background-position: 100% 10%;
     background-size: 40%;
 }
-
+.left2 {
+    background: url(../img/competences-img/concevoir.png) no-repeat;
+    background-position: 100% 10%;
+    background-size: 40%;
+}
+.left3 {
+    background: url(../img/competences-img/entreprendre.png) no-repeat;
+    background-position: 100% 10%;
+    background-size: 40%;
+}
 
 .right {
     display: flex;
@@ -84,10 +93,23 @@ h1 {
     text-align: end;
     align-self: flex-end;
 
-    background: url(../img/images-mockups/a-venir.png) no-repeat;
+    background: url(../img/competences-img/exprimer.png) no-repeat;
     background-position: 10% 0;
     background-size: 40%;
 }
+.right2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: end;
+    align-self: flex-end;
+
+    background: url(../img/competences-img/comprendre.png) no-repeat;
+    background-position: 10% 0;
+    background-size: 40%;
+}
+
+
 .box-texte .txt {
     font-size: 1.2vw;
     line-height: 2vw;
