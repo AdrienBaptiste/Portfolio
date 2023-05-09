@@ -121,7 +121,6 @@ main {
     overflow-y: scroll;
     z-index: 1;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -133,11 +132,12 @@ main {
 .popup {
     background: #3a003a;
     width: 50%;
+    height: fit-content;
     position: relative;
     transition: all 0.4s ease-in-out;
     color: white;
     border-radius: 20px;
-    margin-top: 25%;
+    margin-top: 2%;
     margin-bottom: 2%;
 }
 
@@ -218,9 +218,9 @@ main {
     }
 
     .popup {
-        width: 70%;
+        width: 80%;
         border-radius: 30px;
-        margin-top: 25%;
+        margin-top: 10%;
         margin-bottom: 2%;
     }   
     .cross {
@@ -259,9 +259,9 @@ main {
         font-size: 6vw;
     }
     .popup {
-        width: 80%;
+        width: 90%;
         border-radius: 8px;
-        margin-top: 25%;
+        margin-top: 20%;
         margin-bottom: 2%;
     }   
     .cross {
