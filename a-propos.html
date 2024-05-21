@@ -7,55 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>À propos | Portefolio Adrien</title>
     <link rel="shortcut icon" type="image/png" href="./img/favicon-32x32.png"/>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/menu-burger.css">
-    <link rel="stylesheet" href="css/a-propos.css">
+    <link rel="stylesheet" href="./css/all-styles.css">
+    <link rel="stylesheet" href="./css/a-propos.css">
+    <script type="module" src="./js/elements.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="box-logo">
-            <a class="header-logo" href="index.html"><img src="img/logoA.png" alt=""></a>
-            <!-- <p class="header-nom">ADRIEN <br>BAPTISTE</p> -->
-        </div>
-        <ul class="header-navbar">
-            <a href="index.html">
-                <li>Accueil</li>
-            </a>
-            <a class="page-actuelle" href="a-propos.html">
-                <li>À propos</li>
-            </a>
-            <a href="competences.html">
-                <li>Compétences</li>
-            </a>
-            <a href="projets.html">
-                <li>Projets</li>
-            </a>
-            <a href="contact.html">
-                <li>Contact</li>
-            </a>
-        </ul>
-        <div class="header-burger">
-            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
-            <label for="openSidebarMenu" class="sidebarIconToggle">
-                <div class="spinner diagonal part-1"></div>
-                <div class="spinner horizontal"></div>
-                <div class="spinner diagonal part-2"></div>
-            </label>
-            <div id="sidebarMenu">
-                <ul class="sidebarMenuInner">
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="a-propos.html">À propos</a></li>
-                    <li><a href="competences.html">Compétences</a></li>
-                    <li><a href="projets.html">Projets</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
+    <my-header></my-header>
 
     <main>
         <section class="contenu">
@@ -113,70 +71,11 @@
                 </div>
 
             </div>
-
-
         </section>
-
 
     </main>
 
-
-    <footer>
-        <section>
-
-            <div class="footer-infos">
-                <div class="footer-adresse">
-                    <div class="box-logo-footer">
-                        <img src="img/adresse-blanc.png" alt="" class="logo-footer">
-                    </div>
-                    <div class="box-footer-txt">
-                        <p class="footer-txt-titre">LOCALISATION</p>
-                        <p class="footer-txt-textes">Ile de France - Seine et marne</p>
-                    </div>
-                </div>
-                <div class="footer-tel">
-                    <div class="box-logo-footer">
-                        <img src="img/telephone-blanc.png" alt="" class="logo-footer">
-                    </div>
-                    <div class="box-txt-footer-txt">
-                        <p class="footer-txt-titre">TÉLÉPHONE</p>
-                        <p class="footer-txt-textes">07 78 52 30 83</p>
-                    </div>
-                </div>
-                <div class="footer-mail">
-                    <div class="box-logo-footer">
-                        <img src="img/mail-blanc.png" alt="" class="logo-footer">
-                    </div>
-                    <div class="box-txt-footer">
-                        <p class="footer-txt-titre">E-MAIL</p>
-                        <p class="footer-txt-textes">adrienbaptiste@live.fr</p>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="footer-content">
-                <a href="index.html" class="footer-box-logoA"><img class="logoA" src="img/logoA.png" alt=""></a>
-                <div class="footer-box-nav">
-                    <p class="footer-titre-nav">NAVIGATION</p>
-                    <br>
-                    <ul>
-                        <a href="index.html">Accueil</a>
-                        <a style="color: rgb(81,0,74);" href="a-propos.html">A propos</a>
-                        <a href="competences.html">Compétences</a>
-                        <a href="projets.html">Projets</a>
-                        <a href="contact.html">Contact</a>
-                    </ul>
-                </div>
-                <div class="footer-box-ecole">
-                    <p class="footer-titre-ecole">INSCRIT À</p>
-                    <a class="footer-box-logo-iut" href="https://www.iutsf.u-pec.fr" target="_blank"><img class="footer-logo-iut"
-                            src="img/upec-iut-blanc.png" alt="logo IUT Sénart Fontainebleau"></a>
-                </div>
-            </div>
-
-        </section>
-    </footer>
+    <my-footer></my-footer>
 
     <script src="js/script.js"></script>
 </body>
