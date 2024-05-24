@@ -6,7 +6,7 @@ class MyHeader extends HTMLElement {
                     <a class="header-logo" href="index.html"><img src="img/logoA.png" alt=""></a>
                 </div>
                 <ul class="header-navbar">
-                    <a class="page-actuelle" href="index.html">
+                    <a href="index.html">
                         <li>Accueil</li>
                     </a>
                     <a href="a-propos.html">
@@ -41,6 +41,22 @@ class MyHeader extends HTMLElement {
                 </div>
             </header>
         `;
+
+        this.highlightCurrentPage();
     }
+
+    highlightCurrentPage() {
+        const currentPage = this.getAttribute('current-page');
+        const links = this.querySelectorAll('.header-navbar a');
+
+        links.forEach(link => {
+            if (link.getAttribute('href') === currentPage) {
+                link.classList.add('page-actuelle');
+            } else {
+                link.classList.remove('page-actuelle');
+            }
+        });
+    }
+    
 }
 customElements.define('my-header', MyHeader);
