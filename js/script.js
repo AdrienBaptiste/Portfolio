@@ -21,7 +21,7 @@ map.addEventListener('mousemove', event => {
     // Calculer l'offset de l'ombre en fonction de l'angle de rotation
     const shadowX = Math.sin(angleX * Math.PI / 180) * 10;
     const shadowY = Math.sin(angleY * Math.PI / 180) * 10;
-    mapImage.style.boxShadow = `0px 0px 100px 20px rgba(143, 0, 131, 0.568)`;
+    mapImage.style.boxShadow = `0px 0px 60px 20px rgba(143, 0, 131, 0.568)`;
 });
 
 map.addEventListener('mouseleave', () => {

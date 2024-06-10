@@ -1,41 +1,100 @@
 :root {
     --bodyPurple: #110014;
-    --darkPurple : rgb(81,0,74);
+    --darkPurple: rgb(81,0,74);
+
+    --capsTitlesFont: 'Porsha Richela';
+    --textFont: 'Open Sans Light';
+    --bigCapsTitlesSize: 6rem;
+    --midCapsTitlesSize: 3rem;
+    --smallCapsTitlesSize: 1rem;
+    --bigTextsSize: 6rem;
+    --midTextSize: 3rem;
+    --smallTextSize: 1rem;
+
+    --sectionPaddingTB: 5rem;
+    --containerPaddingRL: 2rem;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: var(--bodyPurple);
     width: 100%;
     height: 100%;
-    color: white;
+    color: rgb(230, 230, 230);
 }
-html {
-    scroll-behavior: smooth;
+.section {
+    width: 100%;
+    padding-top: var(--sectionPaddingTB);
+    padding-bottom: var(--sectionPaddingTB);
+    overflow: hidden;
 }
-main {
-    /*border: 2px dashed orange;*/
-    width: 85%;
+.container {
+    border: 2px dashed rgb(230, 230, 230);
+    max-width: 1400px;
+    width: 100%;
     margin: auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding-right: var(--containerPaddingRL);
+    padding-left: var(--containerPaddingRL);
 }
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(230, 230, 230);
+}
+.big-caps-title {
+    font-family: var(--capsTitlesFont);
+    font-size: var(--bigCapsTitlesSize);
+}
+.mid-caps-title {
+    font-family: var(--capsTitlesFont);
+    font-size: var(--midCapsTitlesSize);
+}
+.small-caps-title {
+    font-family: var(--capsTitlesFont);
+    font-size: var(--smallCapsTitlesSize);
+}
+
+.big-text {
+    font-family: var(--textFont);
+    font-size: var(--bigTextSize);
+}
+.mid-text {
+    font-family: var(--textFont);
+    font-size: var(--midTextSize);
+}
+.small-text {
+    font-family: var(--textFont);
+    font-size: var(--smallTextSize);
 }
 
 
 
 
 
+/* ////////////// MEDIA QUERRIES /////////// */
+
+
+@media screen and (max-width: 1400px) {
+    :root {
+        --containerPaddingRL: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+}
 
 
 
+/* /////////////////// FONTS ////////////// */
 
 
+@font-face {
+    font-family: 'Okine Sans Light';
+    src: url(../font/OkineSans/MADEOkineSansPERSONALUSE-Light.otf);
+}
 @font-face {
     font-family: 'Okine Sans Medium';
     src: url(../font/OkineSans/MADEOkineSansPERSONALUSE-Medium.otf);
@@ -46,8 +105,12 @@ a {
     src: url(../font/OpenSans/OpenSans-Light.ttf);
 }
 
-
 @font-face {
     font-family: 'Glacial Indifference Regular';
     src: url(../font/GlacialIndifference/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Porsha Richela';
+    src: url(../font/PorshaRichela/PorshaRichela.ttf);
 }

@@ -10,7 +10,7 @@ class MyFooter extends HTMLElement {
                                 <img src="img/adresse-blanc.png" alt="" class="logo-footer">
                             </div>
                             <div class="box-footer-txt">
-                                <p class="footer-txt-titre">LOCALISATION</p>
+                                <p class="footer-txt-titre caps-title">LOCALISATION</p>
                                 <p class="footer-txt-textes">Île de France - Seine et Marne</p>
                             </div>
                         </div>
@@ -19,7 +19,7 @@ class MyFooter extends HTMLElement {
                                 <img src="img/telephone-blanc.png" alt="" class="logo-footer">
                             </div>
                             <div class="box-txt-footer-txt">
-                                <p class="footer-txt-titre">TÉLÉPHONE</p>
+                                <p class="footer-txt-titre caps-title">TÉLÉPHONE</p>
                                 <p class="footer-txt-textes">07 78 52 30 83</p>
                             </div>
                         </div>
@@ -28,7 +28,7 @@ class MyFooter extends HTMLElement {
                                 <img src="img/mail-blanc.png" alt="" class="logo-footer">
                             </div>
                             <div class="box-txt-footer">
-                                <p class="footer-txt-titre">E-MAIL</p>
+                                <p class="footer-txt-titre caps-title">E-MAIL</p>
                                 <p class="footer-txt-textes">adrienbaptiste@live.fr</p>
                             </div>
                         </div>
@@ -37,7 +37,7 @@ class MyFooter extends HTMLElement {
                     <div class="footer-content">
                         <a href="index.html" class="footer-box-logoA"><img class="logoA" src="img/logoA.png" alt=""></a>
                         <div class="footer-box-nav">
-                            <p class="footer-titre-nav">NAVIGATION</p>
+                            <p class="footer-titre-nav caps-title">NAVIGATION</p>
                             <br>
                             <ul>
                                 <a style="color: rgb(81,0,74);" href="index.html">Accueil</a>
@@ -48,7 +48,7 @@ class MyFooter extends HTMLElement {
                             </ul>
                         </div>
                         <div class="footer-box-ecole">
-                            <p class="footer-titre-ecole">INSCRIT À</p>
+                            <p class="footer-titre-ecole caps-title">INSCRIT À</p>
                             <a class="footer-box-logo-iut" href="https://www.iutsf.u-pec.fr" target="_blank"><img class="footer-logo-iut"
                                     src="img/upec-iut-blanc.png" alt="logo IUT Sénart Fontainebleau"></a>
                         </div>
