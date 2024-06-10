@@ -8,7 +8,7 @@
     --midCapsTitlesSize: 3rem;
     --smallCapsTitlesSize: 1rem;
     --bigTextsSize: 6rem;
-    --midTextSize: 3rem;
+    --midTextSize: 2rem;
     --smallTextSize: 1rem;
 
     --sectionPaddingTB: 5rem;
@@ -31,7 +31,7 @@ body {
     overflow: hidden;
 }
 .container {
-    border: 2px dashed rgb(230, 230, 230);
+    /* border: 2px dashed rgb(230, 230, 230); */
     max-width: 1400px;
     width: 100%;
     margin: auto;

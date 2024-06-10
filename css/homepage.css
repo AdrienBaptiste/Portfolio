@@ -11,6 +11,10 @@
 .hero-profil_content p:nth-child(1) {
     margin-bottom: 2rem;
 }
+.hero-profil_media {
+    box-shadow: 0px 0px 60px 20px rgba(143, 0, 131, 0.568);
+    border: 0.2px solid rgb(66, 0, 63);
+}
 .hero-profil_media img {
     max-width: 400px;
 }
@@ -51,7 +55,9 @@
     display: flex;
     flex-direction: column;
 }
-
+.box-txt-cv h1 {
+    margin-bottom: 2rem;
+}
 .title-cv {
     font-size: 4vw;
     font-family: 'Okine Sans Medium';
