@@ -146,33 +146,3 @@ footer {
 .footer-logo-iut {
     width: 50%;
 }
-
-
-
-
-
-
-
-
-
-
-
-@font-face {
-    font-family: 'Okine Sans Medium';
-    src: url(../font/OkineSans/MADEOkineSansPERSONALUSE-Medium.otf);
-}
-@font-face {
-    font-family: 'Okine Sans Light';
-    src: url(../font/OkineSans/MADEOkineSansPERSONALUSE-Light.otf);
-}
-
-@font-face {
-    font-family: 'Open Sans Light';
-    src: url(../font/OpenSans/OpenSans-Light.ttf);
-}
-
-
-@font-face {
-    font-family: 'Glacial Indifference Regular';
-    src: url(../font/GlacialIndifference/GlacialIndifference-Regular.otf);
-}
