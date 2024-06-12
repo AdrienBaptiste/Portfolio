@@ -1,6 +1,7 @@
 :root {
     --bodyPurple: #110014;
     --darkPurple: rgb(81,0,74);
+    --clearText: rgb(230, 230, 230);
 
     --capsTitlesFont: 'Porsha Richela';
     --textFont: 'Open Sans Light';
@@ -22,7 +23,7 @@ body {
     background-color: var(--bodyPurple);
     width: 100%;
     height: 100%;
-    color: rgb(230, 230, 230);
+    color: var(--clearText);
 }
 .section {
     width: 100%;
@@ -32,7 +33,7 @@ body {
 }
 .container {
     /* border: 2px dashed rgb(230, 230, 230); */
-    max-width: 1400px;
+    max-width: 1200px;
     width: 100%;
     margin: auto;
     display: flex;
@@ -41,8 +42,29 @@ body {
 }
 a {
     text-decoration: none;
-    color: rgb(230, 230, 230);
+    color: var(--clearText);
 }
+.purple-button {
+    border: 2px solid rgb(81,0,74);
+    cursor: pointer;
+    padding: 2rem 3rem;
+    transition: 150ms;
+    box-shadow: 0 0 10px 0 rgba(143, 0, 131, 0.568) inset, 0 0 10px 4px rgba(143, 0, 131, 0.568);
+}
+.purple-button:hover {
+    box-shadow: 0 0 40px 10px rgba(143, 0, 131, 0.568) inset, 0 0 0 0 rgba(143, 0, 131, 0.568);
+}
+.purple-button button {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans Light';
+    font-size: var(--smallTextSize);
+    background: none;
+    border: none;
+    color: var(--clearText);
+}
+
+
 .big-caps-title {
     font-family: var(--capsTitlesFont);
     font-size: var(--bigCapsTitlesSize);
