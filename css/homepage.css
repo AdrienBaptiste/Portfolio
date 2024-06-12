@@ -1,12 +1,7 @@
-.hero-profil_section {
-
-}
 .hero-profil_container {
     display: flex;
     justify-content: space-between;
     gap: 3rem;
-}
-.hero-profil_content {
 }
 .hero-profil_content p:nth-child(1) {
     margin-bottom: 2rem;
@@ -20,8 +15,6 @@
 }
 
 
-.mon-cv_section {
-}
 .mon-cv_container {
     display: flex;
     justify-content: space-between;
@@ -66,41 +59,4 @@
 }
 .mon-cv_btn a {
     text-decoration: none;
-}
-.mon-cv_btn a button {
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@font-face {
-    font-family: 'Okine Sans Medium';
-    src: url(../font/OkineSans/MADEOkineSansPERSONALUSE-Medium.otf);
-}
-
-@font-face {
-    font-family: 'Open Sans Light';
-    src: url(../font/OpenSans/OpenSans-Light.ttf);
-}
-
-
-@font-face {
-    font-family: 'Glacial Indifference Regular';
-    src: url(../font/GlacialIndifference/GlacialIndifference-Regular.otf);
 }

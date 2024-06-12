@@ -121,30 +121,8 @@ p {
         
     }
 
-
     .parcours .box-infos p {
         font-size: 4vw;
         text-align: center;
     }
-}
-
-
-
-
-
-
-@font-face {
-    font-family: 'Okine Sans Medium';
-    src: url(../font/OkineSans/MADEOkineSansPERSONALUSE-Medium.otf);
-}
-
-@font-face {
-    font-family: 'Open Sans Light';
-    src: url(../font/OpenSans/OpenSans-Light.ttf);
-}
-
-
-@font-face {
-    font-family: 'Glacial Indifference Regular';
-    src: url(../font/GlacialIndifference/GlacialIndifference-Regular.otf);
 }
