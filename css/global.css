@@ -1,4 +1,6 @@
 :root {
+    --containerMaxWidth: 1200px;
+
     --bodyPurple: #110014;
     --darkPurple: rgb(81,0,74);
     --clearText: rgb(230, 230, 230);
@@ -33,7 +35,7 @@ body {
 }
 .container {
     /* border: 2px dashed rgb(230, 230, 230); */
-    max-width: 1200px;
+    max-width: var(--containerMaxWidth);
     width: 100%;
     margin: auto;
     display: flex;
